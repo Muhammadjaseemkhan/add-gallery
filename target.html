@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title>Basic layout </title>
+        
+        <style>
+            body{
+                font-family:arial,Helvetica;
+                 background:slategray;
+                 margin:0%;
+                 padding:0%;
+            }
+
+            #wrapper{
+                border:1px solid black;
+                width:1000px;
+                background:white;
+                margin: 0 auto;
+                margin-top: 0px ;
+                
+            }
+            #header{
+                color:aliceblue;
+            }
+            #header{
+                height:100px;
+                padding: 0;
+            }
+            .abc{
+                background:powderblue;
+            }
+            .xyz{
+                background:olive;
+            }
+            #menu{
+                background:lightsalmon;
+            }
+            #menu li{
+                display:inline-block;
+            }
+            #menu li a {
+                display:block;
+                padding :5px 10px;
+                text-decoration: none;
+                color:black;
+            }
+            #menu ul{
+                margin: 0;
+                padding:0;
+            }
+            #footer{
+                background:lightblue;
+                padding:5px 10px;
+                text-align: right;
+                clear:both;
+            }
+            .sidebar{
+                background:lightgoldenrodyellow;
+                width:200px;
+                min-height: 500px;
+                float:right;
+            }
+            .sidebar a { 
+                text-decoration: none;
+                color:black;
+
+            }
+            .content{
+                width:800px;
+                float:left;
+                min-height: 500px;
+                padding:10px;
+                box-sizing: border-box;
+            }
+            .demo{
+                color:blue;
+            }
+         
+
+        </style>
+        <script src="dom.js"></script>
+    </head>
+    <body>
+        <div id ="wrapper">
+        <div id="header" class="abc" style="border:10px solid lightcoral; color:black" onclick=xyz()">
+            <h1>Muhammad Jaseem Khan</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">About Us </a></li>
+                <li><a href="">Gallary</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </div>
+        <div class ="content">
+            <h2>Dasign Basic layout </h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum asperiores cumque repellendus placeat ipsum rem, praesentium animi exercitationem molestias totam consequuntur harum suscipit architecto id sequi ullam at similique, eligendi soluta, dignissimos dicta veritatis culpa! Deleniti harum ipsam facilis fuga impedit odio eveniet minus obcaecati odit rerum aut aspernatur autem nostrum libero reiciendis, quia ea quisquam officiis vero iste consequuntur ab quo? Officiis voluptatibus, velit placeat sed rem voluptas beatae accusantium, omnis explicabo blanditiis consequatur! Incidunt, reprehenderit fuga? Quos corporis molestias dolor culpa ducimus, accusantium eveniet commodi dolores tempore iusto magnam, maiores adipisci velit quasi obcaecati, eaque repudiandae deserunt inventore!
+            </p>
+            <p class="demo">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis repellendus voluptas suscipit esse mollitia amet dolorem aspernatur quibusdam similique voluptatem saepe, corporis, maxime omnis beatae accusantium dicta. Qui soluta vitae eveniet tempore tenetur iste non dolore velit vel accusantium consequatur quia, distinctio expedita possimus alias! Deserunt nihil a eos enim minima tempore quidem? Illo molestias rerum quibusdam quo beatae. Exercitationem mollitia quos aliquam quo fugiat esse minima? Accusamus itaque magnam nobis maiores repudiandae? Autem, nisi. Sed sint ullam tempore iusto atque debitis dolor blanditiis sapiente consequatur quis aliquam saepe, dignissimos sunt? Error nihil quisquam veritatis voluptas. Reprehenderit in quo doloribus.  
+            </p>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">About Us </a></li>
+                <li><a href="">Gallary</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+            MuhammadJaseemKhan@gmail.com
+        </div>    
+        </div>
+        <script src="text.js"></script>
+        
+    </body>
+
+</html>
